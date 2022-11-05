@@ -1,13 +1,18 @@
-let num=17;
-let r=0;
-for(let i=1;i<=num;i++){
-    
-    if(num%i == 0){
-        r-+;
+// Check whether a number is prime or not.
+
+function checkPrime(num){
+
+    let c=0;
+    for(let i=1;i<=num;i++){
+
+        if(num%i==0){
+            c++;
+        }
+    }
+    if(c==2){
+        console.log("Prime");
+    }else{
+        console.log("Not prime");
     }
 }
-if(r=2){
-    console.log("Yes");
-}else{
-    console.log("No");
-}
+checkPrime(13)

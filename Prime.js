@@ -1,3 +1,4 @@
+
 // Check whether a number is prime or not.
 
 function checkPrime(num){
@@ -16,3 +17,4 @@ function checkPrime(num){
     }
 }
 checkPrime(13)
+

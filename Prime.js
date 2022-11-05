@@ -1,13 +1,13 @@
 let num=17;
-let r=0;
+let factor=0;
 for(let i=1;i<=num;i++){
     
     if(num%i == 0){
-        r-+;
+        factor++;
     }
 }
-if(r=2){
-    console.log("Yes");
+if(factor==2){
+    console.log("Prime");
 }else{
-    console.log("No");
+    console.log("NA");
 }
